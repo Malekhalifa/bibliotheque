@@ -126,7 +126,7 @@ const fetchBooks = async () => {
       params: {
         q: 'programming',
         maxResults: 30,
-        key: 'AIzaSyCsVqGp33ldLw187ugnrbN0KOPWru-lnRo',
+        key: '####################################',
       },
     });
     books.value = response.data.items.map(item => ({
